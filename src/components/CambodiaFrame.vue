@@ -468,7 +468,7 @@ const downloadImage = async (): Promise<void> => {
               const url = URL.createObjectURL(blob)
               const link = document.createElement("a")
               link.href = url
-              link.download = `campaign-frame-${Date.now()}.png`
+              link.download = `cambodiawantpeace-frame-${Date.now()}.png`
               document.body.appendChild(link)
               link.click()
               document.body.removeChild(link)
